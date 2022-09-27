@@ -30,4 +30,14 @@ class UpdateItemRequest extends FormRequest
             'is_selling' => ['required', 'boolean']
         ];
     }
+
+    public function getItemAttributes()
+    {
+        return $this->only([
+            'name',
+            'memo',
+            'price',
+            'is_selling'
+        ]);
+    }
 }

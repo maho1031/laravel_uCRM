@@ -15,13 +15,4 @@ class Item extends Model
         'price',
         'is_selling'
     ];
-
-    // public function getAttributes() {
-       
-    //     return [
-    //         'name' => $this->name,
-    //         'memo' => $this->memo,
-    //         'price' => $this->price
-    //     ];
-    // }
 }
